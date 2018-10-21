@@ -4,7 +4,7 @@ This is based on the original component ionic2-super-tabs https://github.com/zyr
 
 Comes with 2 added enhancements:
 - rotational tabs - gives the experience of cycling through a series of tabs
-- different content loading per view - loads new content as the user swpies through different tabs
+- different content loading per view - loads new content as the user swpies through different tabs (it changes only the view content, not the tabs)
 
 This is not the official release, just my version.
 
