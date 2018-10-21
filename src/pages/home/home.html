@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Swipeable Tabs
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding no-bounce>
+
+  <super-tabs id="tabsId" (tabSelect)="onTabSelect($event)">
+
+    <super-tab [root]="page1" [rootParams]="pageParams1" icon="home" (swipeleft)="onSwipeLeft()" (swiperight)="onSwipeRight()"></super-tab>
+    <super-tab [root]="page2" [rootParams]="pageParams2" icon="pin" (swipeleft)="onSwipeLeft()" (swiperight)="onSwipeRight()"></super-tab>
+    <super-tab [root]="page3" [rootParams]="pageParams3" icon="heart" (swipeleft)="onSwipeLeft()" (swiperight)="onSwipeRight()"></super-tab>
+
+  </super-tabs>
+  
+</ion-content>
